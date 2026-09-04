@@ -95,6 +95,8 @@ export function CaseRunner(props: { name: 'upload' | 'download'; title: string }
           background: #238551 !important;
           color: #fff !important;
           border-radius: 30px !important;
+          height: 40px;
+          font-size: 16px;
         `}
         onClick={onClick}
       >
