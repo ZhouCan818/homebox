@@ -346,7 +346,18 @@ export function RunCaseOnce() {
           ${$textCenter}${$mgt[4]}
         `}
       >
-        <Button onClick={step !== RunningStep.NONE && step !== RunningStep.DONE ? stop : start}>
+        <Button
+          large
+          css={css`
+              padding: 0px 28px;
+              background: #238551 !important;
+              color: #fff !important;
+              border-radius: 27px !important;
+              height: 36px;
+            }
+          `}
+          onClick={step !== RunningStep.NONE && step !== RunningStep.DONE ? stop : start}
+        >
           {
             {
               [RunningStep.NONE]: t('action.start'),
@@ -357,6 +368,7 @@ export function RunCaseOnce() {
             }[step]
           }
         </Button>
+
       </div>
     </div>
   )
