@@ -14,4 +14,8 @@ export const $globalStyle = css`
   body {
     ${css(LightTheme)}
   }
+  *:focus {
+    outline: 0 !important;
+    outline-offset: 0 !important;
+  }
 `
