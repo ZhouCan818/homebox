@@ -354,7 +354,6 @@ export function RunCaseOnce() {
               color: #fff !important;
               border-radius: 27px !important;
               height: 36px;
-            }
           `}
           onClick={step !== RunningStep.NONE && step !== RunningStep.DONE ? stop : start}
         >
