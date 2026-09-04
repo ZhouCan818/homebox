@@ -349,11 +349,10 @@ export function RunCaseOnce() {
         <Button
           large
           css={css`
-            padding: 0px 28px;
+            padding: 5px 28px !important;
             background: #238551 !important;
             color: #fff !important;
-            border-radius: 27px !important;
-            height: 36px;
+            border-radius: 30px !important;
           `}
           onClick={step !== RunningStep.NONE && step !== RunningStep.DONE ? stop : start}
         >
