@@ -56,7 +56,7 @@ export const messages = {
     'state.pinging': 'Ping 中',
     'error.environment': '出错了，请检查运行环境',
     'config.mode.once': '单次测速',
-    'config.mode.continue': '持续压测',
+    'config.mode.continue': '持续测速',
     'config.advanced.show': '切换到高级配置',
     'config.advanced.hide': '切换到普通配置',
     'config.advanced.title': '高级配置',
