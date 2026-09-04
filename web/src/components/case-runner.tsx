@@ -90,7 +90,11 @@ export function CaseRunner(props: { name: 'upload' | 'download'; title: string }
       <RateCurve rates={rates} running={running} />
       <Button
         css={css`
-          margin-top: 12px;
+          margin-top: 20px;
+          padding: 0px 28px;
+          background: #238551 !important;
+          color: #fff !important;
+          border-radius: 30px !important;
         `}
         onClick={onClick}
       >
