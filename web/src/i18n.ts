@@ -37,7 +37,7 @@ export const messages = {
     'config.parallel.help': 'Parallel request count. 3 is recommended; set it to 1 for single-thread tests.',
     'config.language': 'Language',
     'footer.notice':
-      'Test results usually only represent the real data that can be achieved under the current device performance. They have no theoretical reference value and should not be used as theoretical link data.',
+      'The test results are for reference only. Source code: XGHeaven, Secondary development: ZhouCan.',
   },
   zh: {
     'app.download': '下载',
@@ -74,7 +74,7 @@ export const messages = {
     'config.parallel.help': '并行数量，推荐 3 个，如果想要测试单线程，可以调整为 1',
     'config.language': '语言',
     'footer.notice':
-      '测试结果通常只能代表当前设备性能下所能跑到的实际数据， 没有任何理论参考价值，不能作为链路理论数据使用。',
+      '测试结果仅供参考，源码：XGHeaven，二次开发：ZhouCan',
   },
 } as const
 
