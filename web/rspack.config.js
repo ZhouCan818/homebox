@@ -15,7 +15,7 @@ module.exports = {
     publicPath: prod ? '/static/' : undefined
   },
   builtins: {
-    html: [{ template: './src/index.html' }],
+    html: [{ template: './src/index.html', favicon: './src/favicon.ico' }],
     emotion: true,
     react: {
       importSource: '@emotion/react',
